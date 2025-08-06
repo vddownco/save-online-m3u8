@@ -5,7 +5,7 @@
   "main": "index.php",
   "scripts": {
     "build": "echo 'No build process needed for PHP application' && mkdir -p dist && cp -r * dist/ && rm -rf dist/node_modules",
-    "start": "php -S localhost:8000"
+    "start": "echo 'This is a PHP application. To run locally, install PHP and use: php -S localhost:8000'"
   },
   "keywords": ["m3u8", "video", "downloader", "ffmpeg", "php"],
   "author": "Pedram",
